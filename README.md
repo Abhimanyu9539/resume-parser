@@ -1,6 +1,6 @@
 # Resume Parser
 
-AI-powered resume parsing application using FastAPI, Streamlit, and LLMs (OpenAI GPT-4).
+AI-powered resume parsing application using FastAPI, Streamlit, and LLMs (OpenAI GPT-4 / GPT-5.2).
 
 ## Features
 
@@ -162,6 +162,12 @@ resume-parser/
 - Resumes are stored in-memory (data lost on restart)
 - OpenAI API key required (costs apply)
 - Processing time depends on resume size and API response
+
+## Further improvements
+
+- Use Vector DB / DB to store the parsed data for persistence
+- Enable users to chat with the parsed data
+- React based UI
 
 
 ## License
